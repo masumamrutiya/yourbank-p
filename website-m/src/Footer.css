@@ -1,0 +1,78 @@
+
+.CtaSection {
+    width: 1280px;
+    height: auto;
+    padding: 60px;
+    background: linear-gradient(0deg, #1C1C1C 0%, #1C1C1C 100%), linear-gradient(267deg, #1C1C1C 41%, rgba(28.05, 28.05, 28.05, 0) 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px rgba(202, 255, 51, 0.20) solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+    position: relative;
+}
+
+.AbstractDesign {
+    width: 202px;
+    height: 192px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* transform: rotate(-90deg); */
+    transform-origin: 0 0;
+   
+}
+
+.TextContainer {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Heading {
+    align-self: stretch;
+}
+
+.heading-white {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.heading-yellow {
+    color: #CAFF33;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.Paragraph {
+    align-self: stretch;
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.Button-1 {
+    padding: 14px 20px;
+    background: #CAFF33;
+    border-radius: 82px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.Button-1 .Text {
+    color: #1C1C1C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}

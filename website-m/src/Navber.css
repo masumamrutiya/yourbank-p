@@ -1,0 +1,105 @@
+.Navber-1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.navbar {
+    width: 85%;
+    height: 27px;
+    padding: 20px 34px;
+    background: #1C1C1C;
+    border-radius: 100px;
+    border: 1px solid #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo-section {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 4.17px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    padding: 3.33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-bg-n {
+    width: 33.33px;
+    height: 33.33px;
+    /* background: #CAFF33; */
+}
+
+.logo-text {
+    width: 111.67px;
+    height: 18.33px;
+    /* background: white; */
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.menu-item {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.menu-item.home {
+    padding: 12px 24px;
+    background: #262626;
+    border-radius: 82px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sign-up {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.login-button {
+    padding: 14px 30px;
+    background: #CAFF33;
+    border-radius: 82px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-text {
+    color: #1C1C1C;
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}

@@ -1,0 +1,123 @@
+.container-Frequently  {
+    width:85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .header-Frequently  {
+    align-self: stretch;
+    height: 91px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .header-title-Frequently  {
+    align-self: stretch;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+  }
+  
+  .header-title-Frequently  .highlight {
+    color: #CAFF33;
+  }
+  
+  .header-subtitle {
+    align-self: stretch;
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  .faq-section {
+    align-self: stretch;
+    height: 629px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .faq-column {
+    align-self: stretch;
+    height: 610px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .faq-card {
+    flex: 1 1 0;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px #262626 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  
+  .faq-question {
+    align-self: stretch;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .divider {
+    align-self: stretch;
+    height: 0px;
+    border: 1px #262626 solid;
+  }
+  
+  .faq-answer {
+    align-self: stretch;
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  .faq-footer {
+    width: 1279px;
+    background: linear-gradient(180deg, rgba(25, 25, 25, 0) 0%, #191919 100%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .load-faq {
+    padding: 14px 20px;
+    background: #1C1C1C;
+    border-radius: 100px;
+    border: 1px #262626 solid;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .load-faq div {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  
+  .arrow {
+    width: 18px;
+    height: 18px;
+    padding: 4.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

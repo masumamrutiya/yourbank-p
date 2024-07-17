@@ -1,0 +1,181 @@
+
+.TestimonialsSection {
+    width: 1280px;
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.SubContainer {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 150px;
+}
+
+.TextContainer {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Heading {
+    align-self: stretch;
+}
+
+.heading-white {
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+}
+
+.heading-yellow {
+    color: #CAFF33;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+}
+
+.Paragraph {
+    align-self: stretch;
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.Tabs {
+    padding: 12px;
+    background: #1C1C1C;
+    border-radius: 82px;
+    border: 1px #262626 solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Button {
+    padding: 10px 18px;
+    border-radius: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Button.active {
+    background: #CAFF33;
+}
+
+.Button .Text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.Button.active .Text {
+    color: #1C1C1C;
+}
+
+.Button .Text {
+    color: white;
+}
+
+.Container {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.ItemsContainer {
+    flex: 1 1 0;
+    height: 292px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.Card {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.Line {
+    flex: 1 1 0;
+    height: 0;
+    border: 1px #262626 solid;
+}
+
+.Icon {
+    width: 44px;
+    height: 44px;
+    position: relative;
+}
+
+.icon-text {
+    width: 36.24px;
+    height: 28.47px;
+    left: 4.03px;
+    top: 8.07px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.FadeOutLeft {
+    width: 398px;
+    height: 291px;
+    position: absolute;
+    /* background: linear-gradient(270deg, rgba(25, 25, 25, 0) 0%, #191919 100%); */
+}
+
+.FadeOutRight {
+    width: 358px;
+    height: 291px;
+    position: absolute;
+    /* background: linear-gradient(270deg, #191919 10%, rgba(25, 25, 25, 0) 100%); */
+}
+
+.Name {
+    align-self: stretch;
+    text-align: center;
+    color: #CAFF33;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.Button .Icon {
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+
+.Vector {
+    width: 14.58px;
+    height: 14px;
+    position: absolute;
+}
+
+.Vector.rotated {
+    /* left: 15.58px; */
+    top: 7px;
+    /* transform: rotate(180deg); */
+    transform-origin: 0 0;
+}

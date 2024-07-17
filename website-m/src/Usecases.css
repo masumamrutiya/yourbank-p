@@ -1,0 +1,208 @@
+.container-use {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+    margin: 0 auto;
+  }
+
+  .header-usecases {
+    align-self: stretch;
+    height: 91px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .header-usecases .title {
+    align-self: stretch;
+    color: #CAFF33;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+    word-wrap: break-word;
+  }
+
+  .header-usecases .description {
+    align-self: stretch;
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .content {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .use-cases {
+    flex: 1;
+    padding: 40px;
+    background: #1C1C1C;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #1C1C1C;
+    background-image: url(./assets/AbstractDesign1.png);
+    background-repeat: no-repeat;
+
+  }
+
+  .use-case {
+    width: 260px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #262626;
+    border-radius: 10px;
+  }
+
+   /* .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  */
+
+  .icon-bg {
+    padding: 8px;
+    background: linear-gradient(180deg, rgba(202.47, 255, 51, 0.05) 0%, rgba(202.47, 255, 51, 0) 100%);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .icon {
+    padding: 12px;
+    background: linear-gradient(180deg, rgba(202.47, 255, 51, 0.10) 0%, rgba(202.47, 255, 51, 0) 47%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-shape {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .graphic {
+    width: 224px;
+    height: 213px;
+    transform: rotate(-90deg);
+    background: radial-gradient(34.83% 32.89% at 41.22% 12.92%, rgba(25, 25, 25, 0.30) 20%, rgba(202.47, 255, 51, 0.30) 35%, rgba(25, 25, 25, 0.30) 61%);
+  }
+
+  .details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .individuals,
+  .business {
+    align-self: stretch;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .details .title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    word-wrap: break-word;
+    color: #CAFF33;
+  }
+
+  .details .description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #B3B3B3;
+    word-wrap: break-word;
+  }
+
+  .stats {
+    align-self: stretch;
+    height: 129px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .stat .percentage {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    word-wrap: break-word;
+    color: #CAFF33;
+  }
+
+  .stat .description {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+
+  .divider {
+    width: 1px;
+    height: 129px;
+    background: #333;
+  }
+
+  .button {
+    padding: 18px 54px;
+    background: #CAFF33;
+    border-radius: 12px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+
+  
